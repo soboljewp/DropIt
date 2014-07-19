@@ -112,8 +112,6 @@
 		CDB44327197AE02900F7475E /* DropIt */ = {
 			isa = PBXGroup;
 			children = (
-				CDB44330197AE02900F7475E /* DropItAppDelegate.h */,
-				CDB44331197AE02900F7475E /* DropItAppDelegate.m */,
 				CDB44333197AE02900F7475E /* Main.storyboard */,
 				CDB44336197AE02900F7475E /* DropItViewController.h */,
 				CDB44337197AE02900F7475E /* DropItViewController.m */,
@@ -126,6 +124,8 @@
 		CDB44328197AE02900F7475E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				CDB44330197AE02900F7475E /* DropItAppDelegate.h */,
+				CDB44331197AE02900F7475E /* DropItAppDelegate.m */,
 				CDB44329197AE02900F7475E /* DropIt-Info.plist */,
 				CDB4432A197AE02900F7475E /* InfoPlist.strings */,
 				CDB4432D197AE02900F7475E /* main.m */,
@@ -457,6 +457,7 @@
 				CDB44352197AE02900F7475E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CDB44353197AE02900F7475E /* Build configuration list for PBXNativeTarget "DropItTests" */ = {
 			isa = XCConfigurationList;
@@ -465,6 +466,7 @@
 				CDB44355197AE02900F7475E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
