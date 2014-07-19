@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CDAAC2EF197AE7B6006D7265 /* DropItBehavior.m in Sources */ = {isa = PBXBuildFile; fileRef = CDAAC2EE197AE7B6006D7265 /* DropItBehavior.m */; };
 		CDB44322197AE02900F7475E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDB44321197AE02900F7475E /* Foundation.framework */; };
 		CDB44324197AE02900F7475E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDB44323197AE02900F7475E /* CoreGraphics.framework */; };
 		CDB44326197AE02900F7475E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDB44325197AE02900F7475E /* UIKit.framework */; };
@@ -34,6 +35,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CDAAC2ED197AE7B6006D7265 /* DropItBehavior.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DropItBehavior.h; sourceTree = "<group>"; };
+		CDAAC2EE197AE7B6006D7265 /* DropItBehavior.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DropItBehavior.m; sourceTree = "<group>"; };
 		CDB4431E197AE02900F7475E /* DropIt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DropIt.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDB44321197AE02900F7475E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		CDB44323197AE02900F7475E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -113,6 +116,8 @@
 			isa = PBXGroup;
 			children = (
 				CDB44333197AE02900F7475E /* Main.storyboard */,
+				CDAAC2ED197AE7B6006D7265 /* DropItBehavior.h */,
+				CDAAC2EE197AE7B6006D7265 /* DropItBehavior.m */,
 				CDB44336197AE02900F7475E /* DropItViewController.h */,
 				CDB44337197AE02900F7475E /* DropItViewController.m */,
 				CDB44339197AE02900F7475E /* Images.xcassets */,
@@ -251,6 +256,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CDB44332197AE02900F7475E /* DropItAppDelegate.m in Sources */,
+				CDAAC2EF197AE7B6006D7265 /* DropItBehavior.m in Sources */,
 				CDB4432E197AE02900F7475E /* main.m in Sources */,
 				CDB44338197AE02900F7475E /* DropItViewController.m in Sources */,
 			);
